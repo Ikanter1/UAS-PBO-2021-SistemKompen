@@ -1,0 +1,8 @@
+backend\IKompen.class
+backend\Absen.class
+backend\Penugasan.class
+backend\Mahasiswa.class
+backend\Dosen.class
+frontend\TestMahasiswa.class
+backend\DBHelper.class
+backend\Konfirmasi.class

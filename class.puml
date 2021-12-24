@@ -1,0 +1,28 @@
+@startuml
+annotation java.lang.Override
+class backend.Absen
+class backend.DBHelper
+class backend.Dosen
+class backend.Konfirmasi
+class backend.KonfirmasiPenugasan
+class backend.Mahasiswa
+class backend.Penugasan
+class java.util.ArrayList
+interface backend.IKompen
+backend.Absen ..> java.lang.Override
+backend.Absen ..> java.util.ArrayList
+backend.Absen --|> backend.IKompen
+backend.Dosen ..> java.lang.Override
+backend.Dosen ..> java.util.ArrayList
+backend.Dosen --|> backend.IKompen
+backend.Konfirmasi ..> java.lang.Override
+backend.Konfirmasi ..> java.util.ArrayList
+backend.Konfirmasi --|> backend.IKompen
+backend.KonfirmasiPenugasan ..> java.util.ArrayList
+backend.Mahasiswa ..> java.lang.Override
+backend.Mahasiswa ..> java.util.ArrayList
+backend.Mahasiswa --|> backend.IKompen
+backend.Penugasan ..> java.lang.Override
+backend.Penugasan ..> java.util.ArrayList
+backend.Penugasan --|> backend.IKompen
+@enduml
